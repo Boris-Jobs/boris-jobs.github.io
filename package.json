@@ -2,7 +2,7 @@
   "name": "borisjobs-portfolio",
   "version": "2.0.0",
   "private": true,
-  "homepage": "https://boris-jobs.github.io/boris.github.io/",
+  "homepage": "https://boris-jobs.github.io/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
