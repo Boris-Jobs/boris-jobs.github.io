@@ -113,25 +113,25 @@ export const displayAboutBoris = () => {
 function About() {
     return (
         <>
-            {/* <div className="w-20 md:w-32 my-6">
-                <img className="w-full" src="./images/logos/alexander.png" alt="Boris Jobs Logo" />
-            </div> */}
-            <div className="w-30 md:w-40 my-6 mt-30 bg-white border-4 border-white rounded-full overflow-hidden mb-8 md:mb-12">
+            {/* <div className="w-30 md:w-40 my-6 mt-30 bg-white border-4 border-white rounded-full overflow-hidden mb-8 md:mb-12">
                 <img className="w-full h-full object-cover" src="./images/logos/alexander.jpg" alt="Boris Jobs Logo" />
+            </div> */}
+            <div className="w-28 md:w-30 my-20 bg-black rounded-full">
+                <img className="w-full" src="./images/logos/alexander-modified.png" alt="Boris Jobs Logo" />
             </div>
             <div className=" mt-2 md:mt-8 text-lg md:text-2xl text-center px-1">
-                <div>my name is <span className="font-bold">Boris Jobs</span> ,</div>
-                <div className="font-normal ml-1">I'm a <span className="text-pink-600 font-bold">Future AI Engineer!</span></div>
+                <div>My name is <span className="font-bold">Boris Jobs</span> ,</div>
+                <div className="font-normal ml-1">I'm a <span className="text-pink-600 font-bold">Future AI Engineer from Hubble Deep Field</span></div>
             </div>
             <div className=" mt-4 relative md:my-8 pt-px bg-white w-32 md:w-48">
                 <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 left-0"></div>
                 <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 right-0"></div>
             </div>
             <ul className=" mt-4 leading-tight tracking-tight text-sm md:text-base w-5/6 md:w-3/4 emoji-list">
-                <li className=" list-pc">I'm a <span className=" font-medium">Graduate Student</span> currently pursuing my master degree. I've completed my 6 month SWE intern at <u className=' cursor-pointer '> <a href="https://en.wikipedia.org/wiki/HackerRank" target={"_blank"}>HackerRank</a> </u>, and now I'm looking for full-time frontend engineer roles! ( Hit me up <a className='text-underline' href='mailto:cz1322553126@gmail.com'><u>cz1322553126@gmail.com</u></a> :) )</li>
-                <li className=" mt-3 list-building"> I enjoy building awesome softwares that solve practical problems.</li>
-                <li className=" mt-3 list-time"> When I am not coding my next project, I like to spend my time reading books, playing minecraft or watching <a href="https://www.youtube.com/channel/UCBa659QWEk1AI4Tg--mrJ2A" target="_blank" rel="noreferrer"> tom scott's videos.</a></li>
-                <li className=" mt-3 list-star"> My research interest includes (1) pure math & physics, (2) MLLMs, (3) train COOL AIs!</li>
+                <li className=" list-pc">I'm a <span className=" font-medium">Graduate Student of HKU</span> currently pursuing my master degree, now I'm looking for full-time LLMs engineer roles! ( Hit me up <a className='text-underline' href='mailto:cz1322553126@gmail.com'><u>cz1322553126@gmail.com</u></a> :) ).</li>
+                <li className=" mt-3 list-building"> Recently thinking: If you accidentally acquired 500 A100 GPUs, how would you train a large AI model with low hallucination? </li>
+                <li className=" mt-3 list-time"> When I am not coding my next project, I like to spend my time reading books, playing league of legends or Karaoke. I love <span className='text-pink-500'><a href="https://www.eminem.com/song/lose-yourself-soundtrack-version/" target="_blank" rel="noreferrer"> Eminem's Lose Yourself.</a></span></li>
+                <li className=" mt-3 list-star"> My research interest includes (1) pure mathematics & physics, (2) MLLMs, (3) train COOL AIs!</li>
             </ul>
         </>
     )
@@ -149,18 +149,22 @@ function Education() {
             <ul className=" w-10/12  mt-4 ml-4 px-0 md:px-1">
                 <li className="list-disc mt-5">
                     <div className=" text-lg md:text-xl text-left font-bold leading-tight">
-                        The University of Hong Kong, 香港大学
+                        The University of Hong Kong
                     </div>
                     <div className=" text-sm text-gray-400 mt-0.5">2024 - 2026</div>
                     <div className=" text-sm md:text-base">Major: Innovative Design and Technology (Field: Computer Science)</div>
+                    <div className=" text-sm md:text-base">Research Area: Multimodal Large Language Models, MLLMs' Hallucination</div>
+                    <div className=" text-sm md:text-base">Supervisor: <span className='text-pink-500'>Prof. Dr. Zitong Yu</span> (Great Bay University)</div>
                     {/* <div className="text-sm text-gray-300 font-bold mt-1">GPA &nbsp; ? / ?</div> */}
                 </li>
                 <li className="list-disc mt-5">
                     <div className=" text-lg md:text-xl text-left font-bold leading-tight">
-                        University of Science and Technology Beijing, 北京科技大学
+                        University of Science and Technology Beijing
                     </div>
                     <div className=" text-sm text-gray-400 mt-0.5">2018 - 2022</div>
-                    <div className=" text-sm md:text-base">Major: Physics</div>
+                    <div className=" text-sm md:text-base">Major: Applied Physics</div>
+                    <div className=" text-sm md:text-base">Research Area: Large-Scale Image Retrieval, Optimization Algorithms</div>
+                    <div className=" text-sm md:text-base">Supervisor: <span className='text-pink-500'>Prof. Zhengwei Shen</span> (University of Science and Technology Beijing)</div>
                 </li>
                 <li className="list-disc mt-5">
                     <div className=" text-lg md:text-xl text-left font-bold leading-tight">
@@ -168,7 +172,7 @@ function Education() {
                     </div>
                     <div className=" text-sm text-gray-400 mt-0.5">2015 - 2018</div>
                     <div className=" text-sm md:text-base">Subjects of interest: Mathematics, Physics</div>
-                    <div className=' text-sm md:text-base'>I met good teachers!</div>
+                    <div className=' text-sm md:text-base'>I met good teachers! They are <span className='text-pink-500'>Mr. Aichun Xie</span> and <span className='text-pink-500'>Mr. Qingfang Liu</span>!</div>
                     {/* <div className="text-sm text-gray-300 font-bold mt-1">Percentile Rank &nbsp; 94.1%</div> */}
                 </li>
             </ul>
@@ -190,7 +194,7 @@ function Skills() {
                     I've worked with a wide variety of programming languages & frameworks.
                 </li>
                 <li className=" list-arrow text-sm md:text-base mt-4 leading-tight tracking-tight">
-                    <div> My areas of expertise are <strong className="text-ubt-gedit-orange">front-end development, React.js & javascript!</strong></div>
+                    <div> My areas of expertise are <strong className="text-ubt-gedit-orange">Multimodal Large Language Models, Train COOL AIs!</strong></div>
                 </li>
                 <li className=" list-arrow text-sm md:text-base mt-4 leading-tight tracking-tight">
                     <div>Here are my most frequently used</div>

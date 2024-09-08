@@ -1,4 +1,4 @@
-# Web simulation of UbuntuOS
+# UbuntuOS-inspired Theme Personal Webpage
 
 ## Source Code
 
