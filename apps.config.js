@@ -38,7 +38,7 @@ const apps = [
     },
     {
         id: "vscode",
-        title: "Visual Studio Code",
+        title: "Visual Studio Code (wode_scratchs)",
         icon: './themes/Yaru/apps/vscode.png',
         disabled: false,
         favourite: true,
@@ -56,7 +56,7 @@ const apps = [
     },
     {
         id: "spotify",
-        title: "Spotify",
+        title: "beloved Avril",
         icon: './themes/Yaru/apps/spotify.png',
         disabled: false,
         favourite: true,

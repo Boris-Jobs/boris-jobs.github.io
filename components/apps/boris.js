@@ -152,7 +152,7 @@ function Education() {
                         The University of Hong Kong, 香港大学
                     </div>
                     <div className=" text-sm text-gray-400 mt-0.5">2024 - 2026</div>
-                    <div className=" text-sm md:text-base">Innovative Design and Technology (Field: Computer Science)</div>
+                    <div className=" text-sm md:text-base">Major: Innovative Design and Technology (Field: Computer Science)</div>
                     {/* <div className="text-sm text-gray-300 font-bold mt-1">GPA &nbsp; ? / ?</div> */}
                 </li>
                 <li className="list-disc mt-5">
@@ -160,14 +160,14 @@ function Education() {
                         University of Science and Technology Beijing, 北京科技大学
                     </div>
                     <div className=" text-sm text-gray-400 mt-0.5">2018 - 2022</div>
-                    <div className=" text-sm md:text-base">Physics</div>
+                    <div className=" text-sm md:text-base">Major: Physics</div>
                 </li>
                 <li className="list-disc mt-5">
                     <div className=" text-lg md:text-xl text-left font-bold leading-tight">
-                        Class 12<sup>th</sup> (GSEB)
+                        Jiangxi Dayu Middle School
                     </div>
                     <div className=" text-sm text-gray-400 mt-0.5">2015 - 2018</div>
-                    <div className=" text-sm md:text-base">Mathematics, Physics, Chemistry</div>
+                    <div className=" text-sm md:text-base">Subjects of interest: Mathematics, Physics</div>
                     <div className=' text-sm md:text-base'>I met good teachers!</div>
                     {/* <div className="text-sm text-gray-300 font-bold mt-1">Percentile Rank &nbsp; 94.1%</div> */}
                 </li>
@@ -328,6 +328,6 @@ function Projects() {
 }
 function Resume() {
     return (
-        <iframe className="h-full w-full" src="./files/Vivek-Patel-Resume.pdf" title="boris jobs resume" frameBorder="0"></iframe>
+        <iframe className="h-full w-full" src="./files/CV.pdf" title="boris jobs resume" frameBorder="0"></iframe>
     )
 }
