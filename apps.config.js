@@ -10,6 +10,15 @@ import { displayTerminalCalc } from './components/apps/calc';
 
 const apps = [
     {
+        id: "about-boris",
+        title: "关于我 (双击)",
+        icon: './themes/Yaru/system/user-home.png',
+        disabled: false,
+        favourite: true,
+        desktop_shortcut: true,
+        screen: displayAboutBoris,
+    },
+    {
         id: "chrome",
         title: "Google Chrome",
         icon: './themes/Yaru/apps/chrome.png',
@@ -20,21 +29,12 @@ const apps = [
     },
     {
         id: "calc",
-        title: "Calc",
+        title: "Calculator",
         icon: './themes/Yaru/apps/calc.png',
         disabled: false,
         favourite: true,
         desktop_shortcut: false,
         screen: displayTerminalCalc,
-    },
-    {
-        id: "about-boris",
-        title: "关于我 (双击)",
-        icon: './themes/Yaru/system/user-home.png',
-        disabled: false,
-        favourite: true,
-        desktop_shortcut: true,
-        screen: displayAboutBoris,
     },
     {
         id: "vscode",
