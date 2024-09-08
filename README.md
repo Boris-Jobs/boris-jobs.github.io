@@ -18,7 +18,7 @@ _NOTE: if you have yarn just replace `npm start` and `npm run build` with `yarn 
 
 
 
-<!-- ### To make the contact form work
+### To make the contact form work
 
 - Create a account in [emailjs](https://www.emailjs.com/) create also new Outlook or Gmail account to be able
   to send email.
@@ -34,12 +34,12 @@ NEXT_PUBLIC_SERVICE_ID = 'YOUR_SERVICE_ID'
 
 ```
 
-into it. Replace \*your user id and your service ID with your values in your EmailJS service. -->
-
-<!-- ## Star History -->
+into it. Replace \*your user id and your service ID with your values in your EmailJS service.
 
 
-## This project was made using Create Next App! Here is the scripts that u can run.
+
+
+## This project was made using Create Next App!
 
 ### `npm start`
 
