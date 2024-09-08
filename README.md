@@ -2,7 +2,7 @@
 
 **The original template is from https://github.com/vivek9patel/vivek9patel.github.io**
 
-本地部署出现` listen EADDRINUSE: address already in use :::3000`的问题, 解决方案: `netstat -aon | findstr :3000`, 随后`taskkill /PID [PID结果] /F`
+本地部署出现` listen EADDRINUSE: address already in use :::3000 `的问题, 解决方案: ` netstat -aon | findstr :3000 `, 随后` taskkill /PID [PID结果] /F `
 
 This is a personal portfolio website of theme Ubuntu 20.04, made using Next.js & tailwind CSS.
 If you want to edit this. Clone this project and edit the files in `/src/components`.
