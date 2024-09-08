@@ -1,5 +1,5 @@
 {
-  "name": "vivek9patel-portfolio",
+  "name": "borisjobs-portfolio",
   "version": "2.0.0",
   "private": true,
   "homepage": "https://boris-jobs.github.io/boris.github.io/",
@@ -7,7 +7,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "export": "next export"
+    "export": "next export",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d .next"
   },
   "engines": {
     "node": ">=16.x"
@@ -26,5 +28,8 @@
     "react-ga4": "^2.1.0",
     "react-onclickoutside": "^6.12.2",
     "tailwindcss": "^3.2.4"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
