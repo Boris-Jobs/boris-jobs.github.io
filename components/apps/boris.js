@@ -130,7 +130,7 @@ function About() {
             <ul className=" mt-4 leading-tight tracking-tight text-sm md:text-base w-5/6 md:w-3/4 emoji-list">
                 <li className=" list-pc">I'm a <span className=" font-medium">Graduate Student of HKU</span> currently pursuing my master degree, now I'm looking for full-time LLMs engineer roles! ( Hit me up <a className='text-underline' href='mailto:cz1322553126@gmail.com'><u>cz1322553126@gmail.com</u></a> :) ).</li>
                 <li className=" mt-3 list-building"> Recently thinking: If you accidentally acquired 500 A100 GPUs, how would you train a large AI model with low hallucination? </li>
-                <li className=" mt-3 list-time"> When I am not coding my next project, I like to spend my time reading books, playing league of legends or Karaoke. I love <span className='text-pink-500'><a href="https://www.eminem.com/song/lose-yourself-soundtrack-version/" target="_blank" rel="noreferrer"> Eminem's Lose Yourself.</a></span></li>
+                <li className=" mt-3 list-time"> When I am not coding my next project, I like to spend my time reading books, playing league of legends or Karaoke. I love <span className="text-pink-600 font-bold"><a href="https://www.eminem.com/song/lose-yourself-soundtrack-version/" target="_blank" rel="noreferrer"> Eminem's Lose Yourself.</a></span></li>
                 <li className=" mt-3 list-star"> My research interest includes (1) pure mathematics & physics, (2) MLLMs, (3) train COOL AIs!</li>
             </ul>
         </>
@@ -154,7 +154,7 @@ function Education() {
                     <div className=" text-sm text-gray-400 mt-0.5">2024 - 2026</div>
                     <div className=" text-sm md:text-base">Major: Innovative Design and Technology (Field: Computer Science)</div>
                     <div className=" text-sm md:text-base">Research Area: Multimodal Large Language Models, MLLMs' Hallucination</div>
-                    <div className=" text-sm md:text-base">Supervisor: <span className='text-pink-500'>Prof. Dr. Zitong Yu</span> (Great Bay University)</div>
+                    <div className=" text-sm md:text-base">Supervisor: <span className="text-pink-600 font-bold">Prof. Dr. Zitong Yu</span> (Great Bay University)</div>
                     {/* <div className="text-sm text-gray-300 font-bold mt-1">GPA &nbsp; ? / ?</div> */}
                 </li>
                 <li className="list-disc mt-5">
@@ -164,7 +164,7 @@ function Education() {
                     <div className=" text-sm text-gray-400 mt-0.5">2018 - 2022</div>
                     <div className=" text-sm md:text-base">Major: Applied Physics</div>
                     <div className=" text-sm md:text-base">Research Area: Large-Scale Image Retrieval, Optimization Algorithms</div>
-                    <div className=" text-sm md:text-base">Supervisor: <span className='text-pink-500'>Prof. Zhengwei Shen</span> (University of Science and Technology Beijing)</div>
+                    <div className=" text-sm md:text-base">Supervisor: <span className="text-pink-600 font-bold">Prof. Zhengwei Shen</span> (University of Science and Technology Beijing)</div>
                 </li>
                 <li className="list-disc mt-5">
                     <div className=" text-lg md:text-xl text-left font-bold leading-tight">
@@ -172,7 +172,7 @@ function Education() {
                     </div>
                     <div className=" text-sm text-gray-400 mt-0.5">2015 - 2018</div>
                     <div className=" text-sm md:text-base">Subjects of interest: Mathematics, Physics</div>
-                    <div className=' text-sm md:text-base'>I met good teachers! They are <span className='text-pink-500'>Mr. Aichun Xie</span> and <span className='text-pink-500'>Mr. Qingfang Liu</span>!</div>
+                    <div className=' text-sm md:text-base'>I met good teachers! They are <span className="text-pink-600 font-bold">Mr. Aichun Xie</span> and <span className="text-pink-600 font-bold">Mr. Qingfang Liu</span>!</div>
                     {/* <div className="text-sm text-gray-300 font-bold mt-1">Percentile Rank &nbsp; 94.1%</div> */}
                 </li>
             </ul>
