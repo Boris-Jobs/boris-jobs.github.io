@@ -201,37 +201,46 @@ function Skills() {
                 </li>
             </ul>
             <div className="w-full md:w-10/12 flex mt-4">
-                <div className=" text-sm text-center md:text-base w-1/2 font-bold">Languages & Tools</div>
-                <div className=" text-sm text-center md:text-base w-1/2 font-bold">Frameworks & Libraries</div>
+                {/* <div className=" text-sm text-center md:text-base w-1/2 font-bold">Languages & Tools</div>
+                <div className=" text-sm text-center md:text-base w-1/2 font-bold">Frameworks & Libraries</div> */}
+                <div className=" text-sm text-center md:text-base w-full font-bold">Frameworks & Languages</div>
             </div>
             <div className="w-full md:w-10/12 flex justify-center items-start font-bold text-center">
-                <div className="px-2 w-1/2">
-                    <div className="flex flex-wrap justify-center items-start w-full mt-2">
-                        <img className="m-1" src="https://img.shields.io/badge/-JavaScript-%23F7DF1C?style=flat&logo=javascript&logoColor=000000&labelColor=%23F7DF1C&color=%23FFCE5A" alt="boris javascript" />
-                        <img className="m-1" src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat&logo=c%2B%2B&logoColor=white" alt="boris c++" />
-                        <img className="m-1" src="http://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=ffffff" alt="boris python" />
-                        <img className="m-1" src="https://img.shields.io/badge/Dart-0175C2?style=flat&logo=dart&logoColor=white" alt="boris dart" />
-                        <a href="https://www.google.com/search?q=is+html+a+language%3F" target="_blank" rel="noreferrer"><img title="yes it's a language!" className="m-1" src="https://img.shields.io/badge/-HTML5-%23E44D27?style=flat&logo=html5&logoColor=ffffff" alt="boris HTML" /></a>
-                        <img src="https://img.shields.io/badge/-Sass-%23CC6699?style=flat&logo=sass&logoColor=ffffff" alt="boris SASS" className="m-1" />
-                        <img src="https://img.shields.io/badge/-Git-%23F05032?style=flat&logo=git&logoColor=%23ffffff" alt="boris git" className="m-1" />
-                        <img src="https://img.shields.io/badge/-Firebase-FFCA28?style=flat&logo=firebase&logoColor=ffffff" alt="boris firebase" className="m-1" />
-                    </div>
+                {/* <div className="px-2 w-1/2"> */}
+                <div className="flex flex-wrap justify-center items-start w-full mt-2">
+                    <img className="m-1" src="https://img.shields.io/badge/javascript-%23F7DF1E?style=flat&logo=javascript&logoColor=%23F7DF1E&labelColor=white" alt="boris javascript" />
+                    <img className="m-1" src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat&logo=c%2B%2B&logoColor=white" alt="boris c++" />
+                    <img className="m-1" src="http://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=ffffff" alt="boris python" />
+                    <a href="https://www.google.com/search?q=is+html+a+language%3F" target="_blank" rel="noreferrer"><img title="yes it's a language!" className="m-1" src="https://img.shields.io/badge/-HTML5-%23E44D27?style=flat&logo=html5&logoColor=ffffff" alt="boris HTML" /></a>
+                    <img src="https://img.shields.io/badge/-Git-%23F05032?style=flat&logo=git&logoColor=%23ffffff" alt="boris git" className="m-1" />
+                    <img className="m-1" src="https://img.shields.io/badge/c-%23A8B9CC?style=flat&logo=c&logoColor=white" alt="boris c" />
+                    <img className="m-1" src="https://img.shields.io/badge/ubuntu-%23E95420?style=flat&logo=ubuntu&logoColor=white" alt="boris ubuntu" />
+
+                {/* </div> */}
+                {/* </div> */}
+                {/* <div className="px-2 flex flex-wrap items-start w-1/2"> */}
+                {/* <div className="flex flex-wrap justify-center items-start w-full mt-2"> */}
+                    <img className=" m-1" src="https://img.shields.io/badge/Next-black?style=flat&logo=next.js&logoColor=ffffff" alt="boris next" />
+                    <img className=" m-1" src="https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=ffffff" alt="boris react" />
+                    <img className="m-1" src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white" alt="boris tailwind css" />
+                    <img className=" m-1" src="https://img.shields.io/badge/jetbrains-%23000000?style=flat&logo=jetbrains&logoColor=white" alt="boris jetbrains" />
+                    <img className=" m-1" src="https://img.shields.io/badge/numpy-%23013243?style=flat&logo=numpy&logoColor=white" alt="boris numpy" />
+                    <img src="https://img.shields.io/badge/mysql-%234479A1?style=flat&logo=mysql&logoColor=%234479A1&labelColor=white" alt="boris mysql" className="m-1" />
+                    <img src="https://img.shields.io/badge/-Nodejs-339933?style=flat&logo=Node.js&logoColor=ffffff" alt="boris node.js" className="m-1" />
+                    <img src="https://img.shields.io/badge/pytorch-%23EE4C2C?style=flat&logo=pytorch&logoColor=white" alt="boris pytorch" className="m-1"/>
+                    
+
                 </div>
-                <div className="px-2 flex flex-wrap items-start w-1/2">
-                    <div className="flex flex-wrap justify-center items-start w-full mt-2">
-                        <img className=" m-1" src="https://img.shields.io/badge/Next-black?style=flat&logo=next.js&logoColor=ffffff" alt="boris next" />
-                        <img className=" m-1" src="https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=ffffff" alt="boris react" />
-                        <img className="m-1" src="https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white" alt="boris flutter" />
-                        <img className="m-1" src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white" alt="boris tailwind css" />
-                        <img src="https://img.shields.io/badge/-Nodejs-339933?style=flat&logo=Node.js&logoColor=ffffff" alt="boris node.js" className="m-1" />
-                        <img src="https://img.shields.io/badge/jQuery-0769AD?style=flat&logo=jquery&logoColor=white" alt="boris jquery" className="m-1" />
-                        <img className="m-1" src="https://img.shields.io/badge/Redux-593D88?style=flat&logo=redux&logoColor=white" alt="boris redux" />
-                    </div>
-                </div>
+                {/* </div> */}
             </div>
             <ul className=" tracking-tight text-sm md:text-base w-10/12 emoji-list mt-4">
                 <li className=" list-arrow text-sm md:text-base mt-4 leading-tight tracking-tight">
                     <span> And of course,</span> <img className=" inline ml-1" src="http://img.shields.io/badge/-Linux-0078D6?style=plastic&logo=linux&logoColor=ffffff" alt="boris linux" /> <span>!</span>
+                </li>
+            </ul>
+            <ul className=" tracking-tight text-sm md:text-base w-10/12 emoji-list mt-4">
+                <li className=" list-arrow text-sm md:text-base mt-4 leading-tight tracking-tight">
+                    <span> Also I am skilled in,</span> <img className=" inline m-1" src="https://img.shields.io/badge/adobepremierepro-%239999FF?style=flat&logo=adobepremierepro&logoColor=white" alt="boris adobepremierepro" /> <span>!</span>
                 </li>
             </ul>
         </>
