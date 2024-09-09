@@ -6,6 +6,13 @@
 
 ## Instructions
 
+要是使用了` New Folder `, 暂时还没开发删文件夹的function, 可以` F12 `然后:
+```
+var folders = JSON.parse(localStorage.getItem('new_folders'));
+var updatedFolders = folders.filter(folder => folder.id !== 'new-folder-1');
+localStorage.setItem('new_folders', JSON.stringify(updatedFolders));
+```
+
 本地部署出现` listen EADDRINUSE: address already in use :::3000 `的问题, 解决方案: ` netstat -aon | findstr :3000 `, 随后` taskkill /PID [PID结果] /F `.
 
 This is a personal portfolio website of theme Ubuntu 20.04, made using Next.js & tailwind CSS.
