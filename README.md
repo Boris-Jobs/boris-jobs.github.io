@@ -16,7 +16,12 @@ type `npm start` and when u are done coding type `npm run build` to build your a
 
 _NOTE: if you have yarn just replace `npm start` and `npm run build` with `yarn start` and `yarn build`._
 
-
+要是使用了` New Folder `, 暂时还没开发删文件夹的function, 可以` F12 `然后到Console:
+```
+var folders = JSON.parse(localStorage.getItem('new_folders'));
+var updatedFolders = folders.filter(folder => folder.id !== 'new-folder-1');
+localStorage.setItem('new_folders', JSON.stringify(updatedFolders));
+```
 
 ### To make the contact form work
 
