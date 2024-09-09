@@ -251,21 +251,21 @@ function Projects() {
     const project_list = [
         {
             name: "Pendulum-Period-Discussion",
-            date: "Nov 2021",
+            date: "Jan 2023",
             link: "https://github.com/Boris-Jobs/Pendulum-Period-Discussion",
             description: [
                 "It was a question that I had wanted to study since high school, and it was only after graduation from university that I had time to complete the research on this topic of Pendulum Period.",
             ],
-            domains: ["javascript", "tailwindcss"]
+            domains: ["Elliptic Integration", "Physics"]
         },
         {
             name: "wode_scratchs",
-            date: "Jun 2021",
+            date: "Mar 2024",
             link: "https://github.com/Boris-Jobs/wode_scratchs",
             description: [
                 "Scratch projects on topics that I'm interested in, e.g. Multimodal LLMs, Machine Learning Algorithms, Deep Learning Algorithms.",
             ],
-            domains: ["javascript", "chrome-extension"]
+            domains: ["Everything"]
         }
     ];
 
