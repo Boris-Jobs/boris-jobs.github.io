@@ -1,4 +1,4 @@
-import displaySpotify from './components/apps/spotify';
+import displayAvril from './components/apps/avril';
 import displayVsCode from './components/apps/vscode';
 import { displayTerminal } from './components/apps/terminal';
 import { displaySettings } from './components/apps/settings';
@@ -28,6 +28,15 @@ const apps = [
         screen: displayChrome,
     },
     {
+        id: "avril",
+        title: "beloved Avril",
+        icon: './themes/Yaru/apps/letgo.png',
+        disabled: false,
+        favourite: true,
+        desktop_shortcut: true,
+        screen: displayAvril, // India Top 50 Playlist 😅
+    },
+    {
         id: "calc",
         title: "Calculator",
         icon: './themes/Yaru/apps/calc.png',
@@ -53,15 +62,6 @@ const apps = [
         favourite: true,
         desktop_shortcut: false,
         screen: displayTerminal,
-    },
-    {
-        id: "spotify",
-        title: "beloved Avril",
-        icon: './themes/Yaru/apps/spotify.png',
-        disabled: false,
-        favourite: true,
-        desktop_shortcut: false,
-        screen: displaySpotify, // India Top 50 Playlist 😅
     },
     {
         id: "settings",

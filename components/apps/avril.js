@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Spotify() {
+export default function Avril() {
     return (     
         // <iframe src="https://www.eminem.com/song/lose-yourself-soundtrack-version/" frameBorder="0" title="The Most Influential Song for Me" className="h-full w-full bg-ub-cool-grey"></iframe>
 
@@ -8,6 +8,6 @@ export default function Spotify() {
     )
 }
 
-export const displaySpotify = () => {
-    <Spotify> </Spotify>
+export const displayAvril = () => {
+    <Avril> </Avril>
 }

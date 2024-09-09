@@ -9,6 +9,17 @@ export class Chrome extends Component {
             display_url: "https://www.google.com",
         }
     }
+// export class Chrome extends Component {
+//     constructor() {
+//         super();
+//         this.home_url = 'https://kimi.moonshot.cn/';
+//         this.state = {
+//             url: 'https://kimi.moonshot.cn/',
+//             display_url: "https://kimi.moonshot.cn/",
+//         }
+//     }
+    
+
 
     componentDidMount() {
         let lastVisitedUrl = localStorage.getItem("chrome-url");
@@ -46,7 +57,7 @@ export class Chrome extends Component {
 
             url = encodeURI(url);
             display_url = url;
-            if (url.includes("google.com")) { // 😅
+            if (url.includes("google.com")) { // 😅 win + .即可输入表情
                 url = 'https://www.google.com/webhp?igu=1';
                 display_url = "https://www.google.com";
             }
