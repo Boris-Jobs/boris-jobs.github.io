@@ -56,23 +56,23 @@ export class AboutBoris extends Component {
             <>
                 <div id="about" tabIndex="0" onFocus={this.changeScreen} className={(this.state.active_screen === "about" ? " bg-ub-orange bg-opacity-100 hover:bg-opacity-95" : " hover:bg-gray-50 hover:bg-opacity-5 ") + " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5"}>
                     <img className=" w-3 md:w-4" alt="about boris" src="./themes/Yaru/status/about.svg" />
-                    <span className=" ml-1 md:ml-2 text-gray-50 ">About Me / 关于我</span>
+                    <span className=" ml-1 md:ml-2 text-gray-50 ">About Me</span>
                 </div>
                 <div id="education" tabIndex="0" onFocus={this.changeScreen} className={(this.state.active_screen === "education" ? " bg-ub-orange bg-opacity-100 hover:bg-opacity-95" : " hover:bg-gray-50 hover:bg-opacity-5 ") + " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5"}>
                     <img className=" w-3 md:w-4" alt="boris' education" src="./themes/Yaru/status/education.svg" />
-                    <span className=" ml-1 md:ml-2 text-gray-50 ">Education / 教育背景</span>
+                    <span className=" ml-1 md:ml-2 text-gray-50 ">Education</span>
                 </div>
                 <div id="skills" tabIndex="0" onFocus={this.changeScreen} className={(this.state.active_screen === "skills" ? " bg-ub-orange bg-opacity-100 hover:bg-opacity-95" : " hover:bg-gray-50 hover:bg-opacity-5 ") + " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5"}>
                     <img className=" w-3 md:w-4" alt="boris' skills" src="./themes/Yaru/status/skills.svg" />
-                    <span className=" ml-1 md:ml-2 text-gray-50 ">Skills / 专业技能</span>
+                    <span className=" ml-1 md:ml-2 text-gray-50 ">Skills</span>
                 </div>
                 <div id="projects" tabIndex="0" onFocus={this.changeScreen} className={(this.state.active_screen === "projects" ? " bg-ub-orange bg-opacity-100 hover:bg-opacity-95" : " hover:bg-gray-50 hover:bg-opacity-5 ") + " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5"}>
                     <img className=" w-3 md:w-4" alt="boris' projects" src="./themes/Yaru/status/projects.svg" />
-                    <span className=" ml-1 md:ml-2 text-gray-50 ">Projects / 项目</span>
+                    <span className=" ml-1 md:ml-2 text-gray-50 ">Projects</span>
                 </div>
                 <div id="resume" tabIndex="0" onFocus={this.changeScreen} className={(this.state.active_screen === "resume" ? " bg-ub-orange bg-opacity-100 hover:bg-opacity-95" : " hover:bg-gray-50 hover:bg-opacity-5 ") + " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5"}>
                     <img className=" w-3 md:w-4" alt="boris's resume" src="./themes/Yaru/status/download.svg" />
-                    <span className=" ml-1 md:ml-2 text-gray-50 ">Resume / 简历</span>
+                    <span className=" ml-1 md:ml-2 text-gray-50 ">Resume</span>
                 </div>
                 {/* <div className='my-0.5 w-28 md:w-full h-8 px-2 md:px-2.5 flex' >
                     <iframe src="https://github.com/sponsors/boris-jobs/button" title="Sponsor boris" width={"100%"} height={"100%"} ></iframe>
@@ -120,18 +120,19 @@ function About() {
                 <img className="w-full" src="./images/logos/alexander-modified.png" alt="Boris Jobs Logo" />
             </div>
             <div className=" mt-2 md:mt-8 text-lg md:text-2xl text-center px-1">
-                <div>My name is <span className="font-bold">Boris Jobs</span> ,</div>
-                <div className="font-normal ml-1">I'm a <span className="text-pink-600 font-bold">Future AI Engineer from Hubble Deep Field</span></div>
+                <div>My name is <span className="font-bold">Zhe CHEN (Boris Jobs)</span> ,</div>
+                <div>Welcome to my Personal Ubuntu-like System!</div>
+                <div className="font-normal ml-1">I'm an <span className="text-pink-600 font-bold">AI Developer from the Hubble Deep Field.</span></div>
             </div>
             <div className=" mt-4 relative md:my-8 pt-px bg-white w-32 md:w-48">
                 <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 left-0"></div>
                 <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 right-0"></div>
             </div>
             <ul className=" mt-4 leading-tight tracking-tight text-sm md:text-base w-5/6 md:w-3/4 emoji-list">
-                <li className=" list-pc">I'm a <span className=" font-medium">Graduate Student of HKU</span> currently pursuing my master degree, now I'm looking for full-time LLMs engineer roles! ( Hit me up <a className='text-underline' href='mailto:cz1322553126@gmail.com'><u>cz1322553126@gmail.com</u></a> :) ).</li>
-                <li className=" mt-3 list-building"> Recently thinking: If you accidentally acquired 500 A100 GPUs, how would you train a large AI model with low hallucination? </li>
-                <li className=" mt-3 list-time"> When I am not coding my next project, I like to spend my time reading books, playing league of legends or Karaoke. I love <span className="text-pink-600 font-bold"><a href="https://www.eminem.com/song/lose-yourself-soundtrack-version/" target="_blank" rel="noreferrer"> Eminem's Lose Yourself.</a></span></li>
-                <li className=" mt-3 list-star"> My research interest includes (1) pure mathematics & physics, (2) MLLMs, (3) train COOL AIs!</li>
+                <li className=" list-time"> My Github Profile: <span className="text-pink-600 font-bold"><a href="https://github.com/Boris-Jobs" target="_blank" rel="noreferrer"> https://github.com/Boris-Jobs</a></span>.</li>
+                <li className=" mt-3 list-pc">I'm a <span className=" font-medium">Graduate Student of HKU</span> currently pursuing my master degree, now I'm <span className="text-pink-600 font-bold">looking for full-time LLMs engineer roles!</span> ( Hit me up <a className='text-underline' href='mailto:cz1322553126@gmail.com'><u>cz1322553126@gmail.com</u></a>).</li>
+                <li className=" mt-3 list-building"> Recently thinking: If I accidentally acquire thousands of A100 GPUs, how would I train an AI expert specialized in solving specific problems with low hallucination? </li>
+                <li className=" mt-3 list-star"> I'm interested in (1) pure mathematics & physics, (2) MLLMs, (3) train COOL AIs!</li>
             </ul>
         </>
     )
@@ -208,26 +209,22 @@ function Skills() {
             <div className="w-full md:w-10/12 flex justify-center items-start font-bold text-center">
                 {/* <div className="px-2 w-1/2"> */}
                 <div className="flex flex-wrap justify-center items-start w-full mt-2">
+                    <img className="m-1" src="http://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=ffffff" alt="boris python" />
+                    <img src="https://img.shields.io/badge/pytorch-%23EE4C2C?style=flat&logo=pytorch&logoColor=white" alt="boris pytorch" className="m-1"/>
+                    <img src="https://img.shields.io/badge/-Git-%23F05032?style=flat&logo=git&logoColor=%23ffffff" alt="boris git" className="m-1" />
+                    <img src="https://img.shields.io/badge/mysql-%234479A1?style=flat&logo=mysql&logoColor=%234479A1&labelColor=white" alt="boris mysql" className="m-1" />
+                    <img className="m-1" src="https://img.shields.io/badge/ubuntu-%23E95420?style=flat&logo=ubuntu&logoColor=white" alt="boris ubuntu" />
                     <img className="m-1" src="https://img.shields.io/badge/javascript-%23F7DF1E?style=flat&logo=javascript&logoColor=%23F7DF1E&labelColor=white" alt="boris javascript" />
                     <img className="m-1" src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat&logo=c%2B%2B&logoColor=white" alt="boris c++" />
-                    <img className="m-1" src="http://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=ffffff" alt="boris python" />
                     <a href="https://www.google.com/search?q=is+html+a+language%3F" target="_blank" rel="noreferrer"><img title="yes it's a language!" className="m-1" src="https://img.shields.io/badge/-HTML5-%23E44D27?style=flat&logo=html5&logoColor=ffffff" alt="boris HTML" /></a>
-                    <img src="https://img.shields.io/badge/-Git-%23F05032?style=flat&logo=git&logoColor=%23ffffff" alt="boris git" className="m-1" />
-                    <img className="m-1" src="https://img.shields.io/badge/c-%23A8B9CC?style=flat&logo=c&logoColor=white" alt="boris c" />
-                    <img className="m-1" src="https://img.shields.io/badge/ubuntu-%23E95420?style=flat&logo=ubuntu&logoColor=white" alt="boris ubuntu" />
 
-                {/* </div> */}
-                {/* </div> */}
-                {/* <div className="px-2 flex flex-wrap items-start w-1/2"> */}
-                {/* <div className="flex flex-wrap justify-center items-start w-full mt-2"> */}
-                    <img className=" m-1" src="https://img.shields.io/badge/Next-black?style=flat&logo=next.js&logoColor=ffffff" alt="boris next" />
+                    <img className="m-1" src="https://img.shields.io/badge/c-%23A8B9CC?style=flat&logo=c&logoColor=white" alt="boris c" />
+
                     <img className=" m-1" src="https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=ffffff" alt="boris react" />
-                    <img className="m-1" src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white" alt="boris tailwind css" />
                     <img className=" m-1" src="https://img.shields.io/badge/jetbrains-%23000000?style=flat&logo=jetbrains&logoColor=white" alt="boris jetbrains" />
                     <img className=" m-1" src="https://img.shields.io/badge/numpy-%23013243?style=flat&logo=numpy&logoColor=white" alt="boris numpy" />
-                    <img src="https://img.shields.io/badge/mysql-%234479A1?style=flat&logo=mysql&logoColor=%234479A1&labelColor=white" alt="boris mysql" className="m-1" />
-                    <img src="https://img.shields.io/badge/-Nodejs-339933?style=flat&logo=Node.js&logoColor=ffffff" alt="boris node.js" className="m-1" />
-                    <img src="https://img.shields.io/badge/pytorch-%23EE4C2C?style=flat&logo=pytorch&logoColor=white" alt="boris pytorch" className="m-1"/>
+
+
                     
 
                 </div>
@@ -265,7 +262,25 @@ function Projects() {
             description: [
                 "Scratch projects on topics that I'm interested in, e.g. Multimodal LLMs, Machine Learning Algorithms, Deep Learning Algorithms.",
             ],
-            domains: ["Everything"]
+            domains: ["Pytorch", "Jupyter Notebook", "transformers"]
+        },
+        {
+            name: "wode_LLMs_practice",
+            date: "Mar 2020",
+            link: "https://github.com/Boris-Jobs/wode_LLMs_practice",
+            description: [
+                "This repository saves the specific codes that I practiced on LLMs.",
+            ],
+            domains: ["Pytorch", "transformers"]
+        },
+        {
+            name: "Hash_Algorithms_Researchs",
+            date: "Sep 2019",
+            link: "https://github.com/Boris-Jobs/Hash_Algorithms_Researchs",
+            description: [
+                "Some hash algorithms researchs that I conducted for large-scale image retrieval.",
+            ],
+            domains: ["Python", "Matlab"]
         }
     ];
 
@@ -341,6 +356,6 @@ function Projects() {
 }
 function Resume() {
     return (
-        <iframe className="h-full w-full" src="./files/CV.pdf" title="boris jobs resume" frameBorder="0"></iframe>
+        <iframe className="h-full w-full" src="./files/Zhe_CHEN.pdf" title="boris jobs resume" frameBorder="0"></iframe>
     )
 }

@@ -11,7 +11,7 @@ import { displayTerminalCalc } from './components/apps/calc';
 const apps = [
     {
         id: "about-boris",
-        title: "关于我 (双击)",
+        title: "About Me (Double-Click!)",
         icon: './themes/Yaru/system/user-home.png',
         disabled: false,
         favourite: true,
