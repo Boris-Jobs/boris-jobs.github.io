@@ -265,15 +265,6 @@ function Projects() {
             domains: ["Pytorch", "Jupyter Notebook", "transformers"]
         },
         {
-            name: "wode_LLMs_practice",
-            date: "Mar 2020",
-            link: "https://github.com/Boris-Jobs/wode_LLMs_practice",
-            description: [
-                "This repository saves the specific codes that I practiced on LLMs.",
-            ],
-            domains: ["Pytorch", "transformers"]
-        },
-        {
             name: "Hash_Algorithms_Researchs",
             date: "Sep 2019",
             link: "https://github.com/Boris-Jobs/Hash_Algorithms_Researchs",
@@ -281,7 +272,17 @@ function Projects() {
                 "Some hash algorithms researchs that I conducted for large-scale image retrieval.",
             ],
             domains: ["Python", "Matlab"]
+        },
+        {
+            name: "wode_LLMs_practice",
+            date: "Mar 2020",
+            link: "https://github.com/Boris-Jobs/wode_LLMs_practice",
+            description: [
+                "This repository saves the specific codes that I practiced on LLMs.",
+            ],
+            domains: ["Pytorch", "transformers"]
         }
+
     ];
 
     const tag_colors = {
