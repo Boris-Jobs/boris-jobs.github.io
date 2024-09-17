@@ -373,7 +373,7 @@ export const displayTerminal = (addFolder, openApp) => {
 }
 
 async function callXunfeiChatbot(message) {
-    const url = "https://spark-api-open.xf-yun.com/v1/chat/completions";
+    const url = "/api/v1/chat/completions";  // 这会被重写成 https://spark-api-open.xf-yun.com/v1/chat/completions
     const data = {
         "model": "4.0Ultra",
         "messages": [
