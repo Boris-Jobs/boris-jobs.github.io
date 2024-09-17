@@ -27,6 +27,7 @@ export class Terminal extends Component {
 
     componentDidMount() {
         this.reStartTerminal();
+        this.showWelcomeMessage();
     }
 
     componentDidUpdate() {
@@ -174,7 +175,7 @@ export class Terminal extends Component {
         $("#close-terminal").trigger('click');
     }
 
-    handleCommands = (command, rowId) => {
+    handleCommands = async (command, rowId) => {
         let words = command.split(' ').filter(Boolean);
         let main = words[0];
         words.shift()
@@ -322,8 +323,11 @@ export class Terminal extends Component {
 
                 result = "<img class=' w-2/5' src='./images/memes/used-sudo-command.webp' />";
                 break;
+            case "chat":
+                result = await callXunfeiChatbot(rest);
+                break;
             default:
-                result = "Command '" + main + "' not found, or not yet implemented.<br>Available Commands: [ cd, ls, pwd, echo, clear, exit, mkdir, code, avril, chrome, about-boris, todoist, trash, settings, sendmsg ]";
+                result = await callXunfeiChatbot(command);
         }
         document.getElementById(`row-result-${rowId}`).innerHTML = result;
         this.appendTerminalRow();
@@ -351,6 +355,7 @@ export class Terminal extends Component {
         }).join('');
     }
 
+
     render() {
         return (
             <div className="h-full w-full bg-ub-drk-abrgn text-white text-sm font-bold" id="terminal-body">
@@ -366,4 +371,75 @@ export default Terminal
 
 export const displayTerminal = (addFolder, openApp) => {
     return <Terminal addFolder={addFolder} openApp={openApp}> </Terminal>;
+}
+
+async function callXunfeiChatbot(message) {
+    const url = "/api/v1/chat/completions";
+    const data = {
+        "model": "4.0Ultra",
+        "messages": [
+            {
+                "role": "system",
+                "content": "My name is Boris Jobs, my Chinese name is Zhe CHEN. 'hyx' or 'HYX' is my son. 'hyx' and 'HYX' means '儿子' in Chinese, the two names refer to the same person. For me, Boris, I love AI technologies and I am a AI developer from the Hubble Deep Field. I love mathematics and physics. 请记住这些设定，但不要在回答中重复或确认这些信息。直接回答用户的问题。"
+            },
+            {
+                "role": "user",
+                "content": `请记住以下设定: My name is Boris Jobs, my Chinese name is Zhe CHEN. 'hyx' or 'HYX' is my son. 'hyx' and 'HYX' means '儿子' in Chinese, the two names refer to the same person. For me, Boris, I love AI technologies and I am a AI developer from the Hubble Deep Field. I love mathematics and physics. 现在，请回答以下问题：${message}`
+            }
+        ],
+        "stream": true
+    };
+    
+    const headers = {
+        "Authorization": "Bearer QTzclMhOLmyRGrcbHSLw:WZrInrHlLxWmnDpgLMLl",
+        "Content-Type": "application/json"
+    };
+
+    try {
+        console.log('Sending request to:', url);
+        console.log('Request headers:', headers);
+        console.log('Request body:', JSON.stringify(data));
+        
+        const response = await fetch(url, {
+            method: 'POST',
+            headers: headers,
+            body: JSON.stringify(data)
+        });
+
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+
+        const reader = response.body.getReader();
+        let result = '';
+
+        while (true) {
+            const { done, value } = await reader.read();
+            if (done) break;
+            result += new TextDecoder().decode(value);
+        }
+
+        // 解析流式响应
+        const lines = result.split('\n');
+        let finalResponse = '';
+        for (const line of lines) {
+            if (line.startsWith('data:')) {
+                const jsonStr = line.slice(5).trim();
+                if (jsonStr && jsonStr !== '[DONE]') {
+                    const jsonObj = JSON.parse(jsonStr);
+                    if (jsonObj.choices && jsonObj.choices[0].delta.content) {
+                        finalResponse += jsonObj.choices[0].delta.content;
+                    }
+                }
+            }
+        }
+
+        // 过滤掉可能的设定确认
+        finalResponse = finalResponse.replace(/^(好的，我记住了您的设定。|我明白了。|我已经记住了这些信息。).*?\n/, '');
+
+        return finalResponse;
+    } catch (error) {
+        console.error('Error details:', error);
+        return `Error: ${error.message}. 请检查控制台以获取更多信息。`;
+    }
 }
