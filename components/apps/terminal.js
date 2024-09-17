@@ -401,6 +401,7 @@ async function callXunfeiChatbot(message) {
         
         const response = await fetch(url, {
             method: 'POST',
+            mode: 'no-cors',
             headers: headers,
             body: JSON.stringify(data)
         });
