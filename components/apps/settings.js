@@ -4,7 +4,7 @@ import $ from 'jquery';
 export function Settings(props) {
     const wallpapers = {
         "wall-1": "./images/wallpapers/wall-1.webp",
-        "wall-2": "./images/wallpapers/wall-2.png",
+        "wall-2": "./images/wallpapers/wall-2.webp",
         "wall-3": "./images/wallpapers/wall-3.webp",
         "wall-4": "./images/wallpapers/wall-4.webp",
     };
