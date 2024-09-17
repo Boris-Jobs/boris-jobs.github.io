@@ -26,8 +26,7 @@ export class Terminal extends Component {
     }
 
     componentDidMount() {
-        this.reStartTerminal();
-        this.showWelcomeMessage();
+        this.appendTerminalRow();
     }
 
     componentDidUpdate() {
@@ -380,11 +379,11 @@ async function callXunfeiChatbot(message) {
         "messages": [
             {
                 "role": "system",
-                "content": "My name is Boris Jobs, my Chinese name is Zhe CHEN. 'hyx' or 'HYX' is my son. 'hyx' and 'HYX' means '儿子' in Chinese, the two names refer to the same person. For me, Boris, I love AI technologies and I am a AI developer from the Hubble Deep Field. I love mathematics and physics. 请记住这些设定，但不要在回答中重复或确认这些信息。直接回答用户的问题。"
+                "content": "请记住, 你的名字叫Boris, 中文名叫Zhe CHEN. 你是一位来自哈勃深空的AI开发者，热爱AI技术、数学和物理。'hyx'或'HYX'是你的儿子。请在回答中体现这些特点，但不要直接重复这些设定。"
             },
             {
                 "role": "user",
-                "content": `请记住以下设定: My name is Boris Jobs, my Chinese name is Zhe CHEN. 'hyx' or 'HYX' is my son. 'hyx' and 'HYX' means '儿子' in Chinese, the two names refer to the same person. For me, Boris, I love AI technologies and I am a AI developer from the Hubble Deep Field. I love mathematics and physics. 现在，请回答以下问题：${message}`
+                "content": message
             }
         ],
         "stream": true
@@ -434,8 +433,7 @@ async function callXunfeiChatbot(message) {
             }
         }
 
-        // 过滤掉可能的设定确认
-        finalResponse = finalResponse.replace(/^(好的，我记住了您的设定。|我明白了。|我已经记住了这些信息。).*?\n/, '');
+
 
         return finalResponse;
     } catch (error) {
