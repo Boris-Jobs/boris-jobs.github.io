@@ -5,7 +5,7 @@ export default function Meta() {
     return (
         <Head>
            /* Primary Meta Tags */
-            <title>Boris Jobs Portfolio - Future AI Engineer</title>
+            <title>Boris CHEN Portfolio</title>
             <meta charSet="utf-8" />
             <meta name="title" content="boris jobs Portfolio - Computer Engineering Student" />
             <meta name="description"
