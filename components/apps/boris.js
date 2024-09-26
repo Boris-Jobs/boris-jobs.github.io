@@ -167,15 +167,6 @@ function Education() {
                     <div className=" text-sm md:text-base">Research Area: Large-Scale Image Retrieval, Optimization Algorithms</div>
                     <div className=" text-sm md:text-base">Supervisor: <span className="text-pink-600 font-bold">Prof. Zhengwei Shen</span> (University of Science and Technology Beijing)</div>
                 </li>
-                <li className="list-disc mt-5">
-                    <div className=" text-lg md:text-xl text-left font-bold leading-tight">
-                        Jiangxi Dayu Middle School
-                    </div>
-                    <div className=" text-sm text-gray-400 mt-0.5">2015 - 2018</div>
-                    <div className=" text-sm md:text-base">Subjects of interest: Mathematics, Physics</div>
-                    <div className=' text-sm md:text-base'>I met good teachers! They are <span className="text-pink-600 font-bold">Mr. Aichun Xie</span> and <span className="text-pink-600 font-bold">Mr. Qingfang Liu</span>!</div>
-                    {/* <div className="text-sm text-gray-300 font-bold mt-1">Percentile Rank &nbsp; 94.1%</div> */}
-                </li>
             </ul>
         </>
     )
