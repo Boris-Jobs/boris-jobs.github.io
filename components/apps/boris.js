@@ -121,7 +121,7 @@ function About() {
             </div>
             <div className=" mt-2 md:mt-8 text-lg md:text-2xl text-center px-1">
                 <div>My name is <span className="font-bold">Zhe CHEN (Boris Jobs)</span> ,</div>
-                <div>Welcome to my Personal Ubuntu-like System!</div>
+                <div>Welcome to my Personal Homepage!</div>
                 <div className="font-normal ml-1">I'm an <span className="text-pink-600 font-bold">AI Developer from the Hubble Deep Field.</span></div>
             </div>
             <div className=" mt-4 relative md:my-8 pt-px bg-white w-32 md:w-48">
@@ -131,8 +131,8 @@ function About() {
             <ul className=" mt-4 leading-tight tracking-tight text-sm md:text-base w-5/6 md:w-3/4 emoji-list">
                 <li className=" list-time"> My Github Profile: <span className="text-pink-600 font-bold"><a href="https://github.com/Boris-Jobs" target="_blank" rel="noreferrer"> https://github.com/Boris-Jobs</a></span>.</li>
                 <li className=" mt-3 list-pc">I'm a <span className=" font-medium">Graduate Student of HKU</span> currently pursuing my master degree, now I'm <span className="text-pink-600 font-bold">looking for full-time LLMs engineer roles!</span> ( Hit me up <a className='text-underline' href='mailto:cz1322553126@gmail.com'><u>cz1322553126@gmail.com</u></a>).</li>
-                <li className=" mt-3 list-building"> Recently thinking: If I accidentally acquire thousands of A100 GPUs, how would I train an AI expert specialized in solving specific problems with low hallucination? </li>
-                <li className=" mt-3 list-star"> I'm interested in (1) pure mathematics & physics, (2) MLLMs, (3) train COOL AIs!</li>
+                <li className=" mt-3 list-building">Long Term Goal ✨ Develop a personalized J.A.R.V.I.S. (named s.i.g.m.a) that may operates as a multi-agent system, designed to serve as my dedicated intelligence and enable me to gain a deeper understanding of the world. </li>
+                <li className=" mt-3 list-star">I'm interested in 0. Multimodal LLMs (Hallucination, Complex Reasoning); 1. Multi-agent Systems.</li>
             </ul>
         </>
     )
@@ -164,7 +164,7 @@ function Education() {
                     </div>
                     <div className=" text-sm text-gray-400 mt-0.5">2018 - 2022</div>
                     <div className=" text-sm md:text-base">Major: Applied Physics</div>
-                    <div className=" text-sm md:text-base">Research Area: Large-Scale Image Retrieval, Optimization Algorithms</div>
+                    <div className=" text-sm md:text-base">Research Area: Large-Scale Image Retrieval, Machine Learning Algorithms</div>
                     <div className=" text-sm md:text-base">Supervisor: <span className="text-pink-600 font-bold">Prof. Zhengwei Shen</span> (University of Science and Technology Beijing)</div>
                 </li>
             </ul>
@@ -189,7 +189,7 @@ function Skills() {
                     <div> My areas of expertise are <strong className="text-ubt-gedit-orange">Multimodal Large Language Models, Train COOL AIs!</strong></div>
                 </li>
                 <li className=" list-arrow text-sm md:text-base mt-4 leading-tight tracking-tight">
-                    <div>Here are my most frequently used</div>
+                    <div>Here are my frequently used tools (To be updated).</div>
                 </li>
             </ul>
             <div className="w-full md:w-10/12 flex mt-4">
