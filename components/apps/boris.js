@@ -70,10 +70,10 @@ export class AboutBoris extends Component {
                     <img className=" w-3 md:w-4" alt="boris' projects" src="./themes/Yaru/status/projects.svg" />
                     <span className=" ml-1 md:ml-2 text-gray-50 ">Projects</span>
                 </div>
-                <div id="resume" tabIndex="0" onFocus={this.changeScreen} className={(this.state.active_screen === "resume" ? " bg-ub-orange bg-opacity-100 hover:bg-opacity-95" : " hover:bg-gray-50 hover:bg-opacity-5 ") + " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5"}>
+                {/* <div id="resume" tabIndex="0" onFocus={this.changeScreen} className={(this.state.active_screen === "resume" ? " bg-ub-orange bg-opacity-100 hover:bg-opacity-95" : " hover:bg-gray-50 hover:bg-opacity-5 ") + " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5"}>
                     <img className=" w-3 md:w-4" alt="boris's resume" src="./themes/Yaru/status/download.svg" />
                     <span className=" ml-1 md:ml-2 text-gray-50 ">Resume</span>
-                </div>
+                </div> */}
                 {/* <div className='my-0.5 w-28 md:w-full h-8 px-2 md:px-2.5 flex' >
                     <iframe src="https://github.com/sponsors/boris-jobs/button" title="Sponsor boris" width={"100%"} height={"100%"} ></iframe>
                 </div> */}
@@ -169,6 +169,7 @@ function Education() {
         </>
     )
 }
+
 function Skills() {
     return (
         <>
@@ -344,8 +345,8 @@ function Projects() {
         </>
     )
 }
-function Resume() {
-    return (
-        <iframe className="h-full w-full" src="./files/Zhe_CHEN.pdf" title="boris jobs resume" frameBorder="0"></iframe>
-    )
-}
+// function Resume() {
+//     return (
+//         <iframe className="h-full w-full" src="./files/Zhe_CHEN.pdf" title="boris jobs resume" frameBorder="0"></iframe>
+//     )
+// }

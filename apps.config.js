@@ -13,7 +13,7 @@ const apps = [
     {
         id: "about-boris",
         title: "About Me (Double-Click!)",
-        icon: './themes/Yaru/system/user.png',
+        icon: './themes/Yaru/system/earth.png',
         disabled: false,
         favourite: true,
         desktop_shortcut: true,
