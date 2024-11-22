@@ -34,7 +34,7 @@ const apps = [
         icon: './themes/Yaru/apps/chrome.png',
         disabled: false,
         favourite: true,
-        desktop_shortcut: true,
+        desktop_shortcut: false,
         screen: displayChrome,
     },
     {
@@ -69,8 +69,8 @@ const apps = [
         title: "Terminal",
         icon: './themes/Yaru/apps/bash.png',
         disabled: false,
-        favourite: true,
-        desktop_shortcut: false,
+        favourite: false,
+        desktop_shortcut: true,
         screen: displayTerminal,
     },
     {
