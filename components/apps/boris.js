@@ -18,8 +18,8 @@ export class AboutBoris extends Component {
             "about": <About />,
             "education": <Education />,
             "skills": <Skills />,
-            "projects": <Projects />,
-            "resume": <Resume />,
+            "projects": <Projects />
+            // "resume": <Resume />,
         }
 
         let lastVisitedScreen = localStorage.getItem("about-section");
