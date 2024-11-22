@@ -155,7 +155,6 @@ function Education() {
                     <div className=" text-sm text-gray-400 mt-0.5">2024 - 2026</div>
                     <div className=" text-sm md:text-base">Major: Innovative Design and Technology (Field: Computer Science)</div>
                     <div className=" text-sm md:text-base">Research Area: Multimodal Large Language Models, MLLMs' Hallucination</div>
-                    <div className=" text-sm md:text-base">Supervisor: <span className="text-pink-600 font-bold">Prof. Dr. Zitong Yu</span> (Great Bay University)</div>
                     {/* <div className="text-sm text-gray-300 font-bold mt-1">GPA &nbsp; ? / ?</div> */}
                 </li>
                 <li className="list-disc mt-5">
@@ -165,7 +164,6 @@ function Education() {
                     <div className=" text-sm text-gray-400 mt-0.5">2018 - 2022</div>
                     <div className=" text-sm md:text-base">Major: Applied Physics</div>
                     <div className=" text-sm md:text-base">Research Area: Large-Scale Image Retrieval, Machine Learning Algorithms</div>
-                    <div className=" text-sm md:text-base">Supervisor: <span className="text-pink-600 font-bold">Prof. Zhengwei Shen</span> (University of Science and Technology Beijing)</div>
                 </li>
             </ul>
         </>
