@@ -150,20 +150,20 @@ function Education() {
             <ul className=" w-10/12  mt-4 ml-4 px-0 md:px-1">
                 <li className="list-disc mt-5">
                     <div className=" text-lg md:text-xl text-left font-bold leading-tight">
-                        The University of Hong Kong
+                        PFSCT: A penalty function semi-continuous thresholding methods for constraints of hashing problems
                     </div>
-                    <div className=" text-sm text-gray-400 mt-0.5">2024 - 2026</div>
-                    <div className=" text-sm md:text-base">Major: Innovative Design and Technology (Field: Computer Science)</div>
-                    <div className=" text-sm md:text-base">Research Area: Multimodal Large Language Models, MLLMs' Hallucination</div>
+                    <div className=" text-sm text-gray-400 mt-0.5">Journal of Visual Communication and Image Representation</div>
+                    <div className=" text-sm md:text-base">DOMAIN: Representation Learning, Optimization Algorithms</div>
+                    <div className=" text-sm md:text-base">Description: We introduce a novel approach to hash coding for large-scale image retrieval, addressing the challenges of discrete binary, uncorrelated, and balanced constraints. We propose the Penalty Function Semi-Continuous Thresholding (PFSCT) method, which combines a penalty function for handling orthogonality constraints with a semi-continuous thresholding technique to minimize quantization errors. The method is theoretically analyzed for equivalence to the original non-relaxed problem and demonstrated through extensive experiments on benchmark datasets like Cifar10, NUS-WIDE, and SUN397. Results show that PFSCT significantly improves retrieval accuracy and computational efficiency compared to existing methods, offering a robust solution for hash coding in high-dimensional data scenarios.</div>
                     {/* <div className="text-sm text-gray-300 font-bold mt-1">GPA &nbsp; ? / ?</div> */}
                 </li>
                 <li className="list-disc mt-5">
                     <div className=" text-lg md:text-xl text-left font-bold leading-tight">
-                        University of Science and Technology Beijing
+                        EPE-P: Evidence-based Parameter-efficient Prompting for Multimodal Learning with Missing Modalities
                     </div>
-                    <div className=" text-sm text-gray-400 mt-0.5">2018 - 2022</div>
-                    <div className=" text-sm md:text-base">Major: Applied Physics</div>
-                    <div className=" text-sm md:text-base">Research Area: Large-Scale Image Retrieval, Machine Learning Algorithms</div>
+                    <div className=" text-sm text-gray-400 mt-0.5">IEEE International Conference on Acoustics, Speech, and Signal Processing</div>
+                    <div className=" text-sm md:text-base">DOMAIN: Robustness of Multimodal LLMs</div>
+                    <div className=" text-sm md:text-base">Description: This research introduces Evidence-based Parameter-efficient Prompting (EPE-P), a novel approach to address the complexities of multimodal learning when modalities are missing. Traditional methods suffer from parameter redundancy and suboptimal performance due to the need for extensive prompt designs for each missing modality scenario. EPE-P tackles this by employing a single comprehensive prompt matrix alongside modality-specific weight matrices, reducing the number of parameters while enhancing model efficiency. Our method utilizes a new Block-wise Kronecker-like Multiplication (BK-M) for prompt generation and introduces an Evidence-based Loss function grounded in Evidential Deep Learning to manage uncertainty in missing modality scenarios. Evaluations on MM-IMDb and Hateful Memes datasets demonstrate that EPE-P not only achieves superior performance in terms of F1-Macro and AUROC metrics but also significantly reduces the parameter count compared to existing techniques. This work promises to advance multimodal learning by offering a more streamlined, effective, and uncertainty-aware approach to handling incomplete data.</div>
                 </li>
             </ul>
         </>
