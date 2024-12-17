@@ -120,9 +120,9 @@ function About() {
                 <img className="w-full" src="./images/logos/alexander-modified.png" alt="Boris Jobs Logo" />
             </div>
             <div className=" mt-2 md:mt-8 text-lg md:text-2xl text-center px-1">
-                <div>My name is <span className="font-bold">Zhe CHEN (Boris Jobs)</span> ,</div>
-                <div>Welcome to my Personal Homepage!</div>
-                <div className="font-normal ml-1">I'm an <span className="text-pink-600 font-bold">AI Developer from the Hubble Deep Field.</span></div>
+                <div>My name is <span className="font-bold">Zhe CHEN (Boris)</span> ,</div>
+                <div>HKU Music Society Social Welfare Representative</div>
+                <div className="font-normal ml-1"><span className="text-pink-600 font-bold">AI Developer from the Hubble Deep Field.</span></div>
             </div>
             <div className=" mt-4 relative md:my-8 pt-px bg-white w-32 md:w-48">
                 <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 left-0"></div>
@@ -132,7 +132,7 @@ function About() {
                 <li className=" list-time"> My Github Profile: <span className="text-pink-600 font-bold"><a href="https://github.com/Boris-Jobs" target="_blank" rel="noreferrer"> https://github.com/Boris-Jobs</a></span>.</li>
                 <li className=" mt-3 list-pc">I'm a <span className=" font-medium">Graduate Student of HKU</span> currently pursuing my master degree, now I'm <span className="text-pink-600 font-bold">looking for full-time LLMs engineer roles!</span> ( Hit me up <a className='text-underline' href='mailto:cz1322553126@gmail.com'><u>cz1322553126@gmail.com</u></a>).</li>
                 <li className=" mt-3 list-building">Long Term Goal ✨ Develop a personalized J.A.R.V.I.S. (named s.i.g.m.a) that may operates as a multi-agent system, designed to serve as my dedicated intelligence and enable me to gain a deeper understanding of the world. </li>
-                <li className=" mt-3 list-star">I'm interested in 0. Multimodal LLMs (Hallucination, Complex Reasoning); 1. Multi-agent Systems.</li>
+                <li className=" mt-3 list-star">I'm interested in Safety Alignment of MLLMs/LLMs; 1. Multi-agent Systems.</li>
             </ul>
         </>
     )
