@@ -43,7 +43,7 @@ const apps = [
         icon: './themes/Yaru/apps/letgo.png',
         disabled: false,
         favourite: true,
-        desktop_shortcut: true,
+        desktop_shortcut: false,
         screen: displayAvril,
     },
     {
