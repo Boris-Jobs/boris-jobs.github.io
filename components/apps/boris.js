@@ -60,7 +60,7 @@ export class AboutBoris extends Component {
                 </div>
                 <div id="education" tabIndex="0" onFocus={this.changeScreen} className={(this.state.active_screen === "education" ? " bg-ub-orange bg-opacity-100 hover:bg-opacity-95" : " hover:bg-gray-50 hover:bg-opacity-5 ") + " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5"}>
                     <img className=" w-3 md:w-4" alt="boris' education" src="./themes/Yaru/status/education.svg" />
-                    <span className=" ml-1 md:ml-2 text-gray-50 ">Education</span>
+                    <span className=" ml-1 md:ml-2 text-gray-50 ">Researchs</span>
                 </div>
                 <div id="skills" tabIndex="0" onFocus={this.changeScreen} className={(this.state.active_screen === "skills" ? " bg-ub-orange bg-opacity-100 hover:bg-opacity-95" : " hover:bg-gray-50 hover:bg-opacity-5 ") + " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5"}>
                     <img className=" w-3 md:w-4" alt="boris' skills" src="./themes/Yaru/status/skills.svg" />
@@ -141,7 +141,7 @@ function Education() {
     return (
         <>
             <div className=" font-medium relative text-2xl mt-2 md:mt-4 mb-4">
-                Education
+                Researchs
                 <div className="absolute pt-px bg-white mt-px top-full w-full">
                     <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 left-full"></div>
                     <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 right-full"></div>
@@ -155,7 +155,6 @@ function Education() {
                     <div className=" text-sm text-gray-400 mt-0.5">Journal of Visual Communication and Image Representation</div>
                     <div className=" text-sm md:text-base">DOMAIN: Representation Learning, Optimization Algorithms</div>
                     <div className=" text-sm md:text-base">Description: We introduce a novel approach to hash coding for large-scale image retrieval, addressing the challenges of discrete binary, uncorrelated, and balanced constraints. We propose the Penalty Function Semi-Continuous Thresholding (PFSCT) method, which combines a penalty function for handling orthogonality constraints with a semi-continuous thresholding technique to minimize quantization errors. The method is theoretically analyzed for equivalence to the original non-relaxed problem and demonstrated through extensive experiments on benchmark datasets like Cifar10, NUS-WIDE, and SUN397. Results show that PFSCT significantly improves retrieval accuracy and computational efficiency compared to existing methods, offering a robust solution for hash coding in high-dimensional data scenarios.</div>
-                    {/* <div className="text-sm text-gray-300 font-bold mt-1">GPA &nbsp; ? / ?</div> */}
                 </li>
                 <li className="list-disc mt-5">
                     <div className=" text-lg md:text-xl text-left font-bold leading-tight">
