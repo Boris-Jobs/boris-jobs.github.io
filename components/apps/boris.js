@@ -130,8 +130,8 @@ function About() {
             </div>
             <ul className=" mt-4 leading-tight tracking-tight text-sm md:text-base w-5/6 md:w-3/4 emoji-list">
                 <li className=" list-time"> My Github Profile: <span className="text-pink-600 font-bold"><a href="https://github.com/Boris-Jobs" target="_blank" rel="noreferrer"> https://github.com/Boris-Jobs</a></span>.</li>
-                <li className=" mt-3 list-pc">I'm a <span className=" font-medium">Graduate Student of HKU</span> currently pursuing my master degree, now I'm <span className="text-pink-600 font-bold">looking for full-time LLMs engineer roles!</span> ( Hit me up <a className='text-underline' href='mailto:cz1322553126@gmail.com'><u>cz1322553126@gmail.com</u></a>).</li>
-                <li className=" mt-3 list-building">Long Term Goal ✨ Develop a personalized J.A.R.V.I.S. (named s.i.g.m.a) that may operates as a multi-agent system, designed to serve as my dedicated intelligence and enable me to gain a deeper understanding of the world. </li>
+                <li className=" mt-3 list-pc">I'm a <span className=" font-medium">master student of HKU</span>, now I'm <span className="text-pink-600 font-bold">looking for full-time LLMs engineer roles!</span> ( Hit me up <a className='text-underline' href='mailto:cz1322553126@gmail.com'><u>cz1322553126@gmail.com</u></a>).</li>
+                <li className=" mt-3 list-building">Long Term Goal ✨ Develop my own personalized 'J.A.R.V.I.S.' (called ".v"), and build a multi-agent society, where each agent serves as someone's personalized 'J.A.R.V.I.S.'. </li>
                 <li className=" mt-3 list-star">I'm interested in Safety Alignment of MLLMs/LLMs; 1. Multi-agent Systems.</li>
             </ul>
         </>
