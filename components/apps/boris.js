@@ -132,7 +132,7 @@ function About() {
                 <li className=" list-time"> My Github Profile: <span className="text-pink-600 font-bold"><a href="https://github.com/Boris-Jobs" target="_blank" rel="noreferrer"> https://github.com/Boris-Jobs</a></span>.</li>
                 <li className=" mt-3 list-pc">I'm a <span className=" font-medium">master student from HKU</span>, now I'm <span className="text-pink-600 font-bold">looking for full-time LLMs engineer roles!</span> ( Hit me up <a className='text-underline' href='mailto:cz1322553126@gmail.com'><u>cz1322553126@gmail.com</u></a>).</li>
                 <li className=" mt-3 list-building">Long Term Goal ✨ (1) Personalized 'J.A.R.V.I.S.' (called ".v"), (2) Multi-Agent Society. </li>
-                <li className=" mt-3 list-star">I'm interested in Safety Alignment of MLLMs/LLMs; 1. Multi-agent Systems.</li>
+                <li className=" mt-3 list-star">I'm interested in 0. Safety Alignment of MLLMs/LLMs; 1. Multi-agent Systems.</li>
             </ul>
         </>
     )
