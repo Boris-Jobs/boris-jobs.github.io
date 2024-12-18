@@ -239,7 +239,7 @@ function Projects() {
     const project_list = [
         {
             name: "Pendulum-Period-Discussion",
-            date: "Jan 2023",
+            date: "2023",
             link: "https://github.com/Boris-Jobs/Pendulum-Period-Discussion",
             description: [
                 "It was a question that I had wanted to study since high school, and it was only after graduation from university that I had time to complete the research on this topic of Pendulum Period.",
@@ -247,8 +247,8 @@ function Projects() {
             domains: ["Elliptic Integration", "Physics"]
         },
         {
-            name: "wode_LLMs_practice",
-            date: "Mar 2020",
+            name: "EPE-P_MLLMs-Robustness",
+            date: "2024",
             link: "https://github.com/Boris-Jobs/EPE-P_MLLMs-Robustness",
             description: [
                 "Source code of EPE-P.",
