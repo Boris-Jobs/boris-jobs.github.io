@@ -130,7 +130,7 @@ function About() {
             </div>
             <ul className=" mt-4 leading-tight tracking-tight text-sm md:text-base w-5/6 md:w-3/4 emoji-list">
                 <li className=" list-time"> My Github Profile: <span className="text-pink-600 font-bold"><a href="https://github.com/Boris-Jobs" target="_blank" rel="noreferrer"> https://github.com/Boris-Jobs</a></span>.</li>
-                <li className=" mt-3 list-pc">I'm a <span className=" font-medium">master student of HKU</span>, now I'm <span className="text-pink-600 font-bold">looking for full-time LLMs engineer roles!</span> ( Hit me up <a className='text-underline' href='mailto:cz1322553126@gmail.com'><u>cz1322553126@gmail.com</u></a>).</li>
+                <li className=" mt-3 list-pc">I'm a <span className=" font-medium">master student from HKU</span>, now I'm <span className="text-pink-600 font-bold">looking for full-time LLMs engineer roles!</span> ( Hit me up <a className='text-underline' href='mailto:cz1322553126@gmail.com'><u>cz1322553126@gmail.com</u></a>).</li>
                 <li className=" mt-3 list-building">Long Term Goal ✨ (1) Personalized 'J.A.R.V.I.S.' (called ".v"), (2) Multi-Agent Society. </li>
                 <li className=" mt-3 list-star">I'm interested in Safety Alignment of MLLMs/LLMs; 1. Multi-agent Systems.</li>
             </ul>
@@ -182,12 +182,6 @@ function Skills() {
                 </div>
             </div>
             <ul className=" tracking-tight text-sm md:text-base w-10/12 emoji-list">
-                <li className=" list-arrow text-sm md:text-base mt-4 leading-tight tracking-tight">
-                    I've worked with a wide variety of programming languages & frameworks.
-                </li>
-                <li className=" list-arrow text-sm md:text-base mt-4 leading-tight tracking-tight">
-                    <div> My areas of expertise are <strong className="text-ubt-gedit-orange">Multimodal Large Language Models, Train COOL AIs!</strong></div>
-                </li>
                 <li className=" list-arrow text-sm md:text-base mt-4 leading-tight tracking-tight">
                     <div>Here are my frequently used tools (To be updated).</div>
                 </li>
