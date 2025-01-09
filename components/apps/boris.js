@@ -121,7 +121,7 @@ function About() {
             </div>
             <div className=" mt-2 md:mt-8 text-lg md:text-2xl text-center px-1">
                 <div>My name is <span className="font-bold">Zhe CHEN (Boris)</span> ,</div>
-                <div>HKU Music Society Social and Welfare Secretary</div>
+                <div>HKU Music Society Social and Welfare Secretary (2024-2025)</div>
                 <div className="font-normal ml-1"><span className="text-pink-600 font-bold">AI Developer from the Hubble Deep Field.</span></div>
             </div>
             <div className=" mt-4 relative md:my-8 pt-px bg-white w-32 md:w-48">
